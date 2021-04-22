@@ -1,0 +1,19 @@
+{
+  "name": "hardback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
