@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardback Emulator</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav></nav>
+    <main class="hardback-game">
+        <div id="game__main-display">
+            <div id="game__stats-display"></div>
+            <div id="game__offer-row"></div>
+        </div>
+    <div id="game__player-display"></div>
+    <button class="button" id="noPress">Player info Console Log</button>
+    <button class="button" id="playerHand">Player Hand Console Log</button>
+    
+
+
+
+    </main>
+
+
+    <script type="module" src="scripts.js"></script>
+    <script type="module">
+    </script>
+</body>
+</html>
+<!--
+
+    TODO:
+        render letters on page
+        get letters list, see what words are able to be made from them
+        game loop
+            init
+                create card deck
+                give base cards to player
+                shuffle premium cards
+            draw phase
+                draw hand
+                draw more cards with ink
+                move cards around
+                submit word
+                run abilities
+                    remove last player timeless classics if same suit
+                calculate money and points
+                apply points to total score
+            buy phase
+                if wipeable && player requests
+                    wipe shelf
+                select card
+                    buy selected card
+                        draw new card
+                        remove last player timeless classics if same suit
+                buy ink
+                draw new hand
+            Penny phase
+                trash furthest card
+                    apply cost in points to Penny score
+                draw new card
+                remove last player timeless classics if same suit
+                point check if ANY over 60, game end, apply winner
+
+-->    
